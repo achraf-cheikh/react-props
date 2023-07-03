@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap");
+
+.NavContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.NavContainer div {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.NavContainer div h1 {
+  line-height: 38px;
+  font-family: "roboto", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #747474;
+}
